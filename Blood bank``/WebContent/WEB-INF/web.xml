@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Blood bank``</display-name>
+  <welcome-file-list>
+    <welcome-file>signup.html</welcome-file>
+  
+  </welcome-file-list>
+ <welcome-file-list>
+    <welcome-file>CLARET3.html</welcome-file>
+  
+  </welcome-file-list>
+ 
+<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>com.register.Register</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping> 
+  
+<servlet>
+		<servlet-name>Connection</servlet-name>
+		<servlet-class>com.connection.Connection</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Connection</servlet-name>
+		<url-pattern>/connection</url-pattern>
+	</servlet-mapping> 
+  
+  
+<servlet>
+		<servlet-name>Bean</servlet-name>
+		<servlet-class>com.bean.Bean</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Bean</servlet-name>
+		<url-pattern>/bean</url-pattern>
+	</servlet-mapping> 
+  
+  
+<servlet>
+		<servlet-name>ShareEmp</servlet-name>
+		<servlet-class>com.shareemp.ShareEmp</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ShareEmp</servlet-name>
+		<url-pattern>/shareemp</url-pattern>
+	</servlet-mapping> 
+  
+<servlet>
+		<servlet-name>EmpShare</servlet-name>
+		<servlet-class>com.sharemp.EmpShare</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>EmpShare</servlet-name>
+		<url-pattern>/empshare</url-pattern>
+	</servlet-mapping> 
+  
+<servlet>
+		<servlet-name>RegStory</servlet-name>
+		<servlet-class>com.regstory.RegStory</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegStory</servlet-name>
+		<url-pattern>/regstory</url-pattern>
+	</servlet-mapping> 
+  
+<servlet>
+		<servlet-name>SaveStory</servlet-name>
+		<servlet-class>com.savestory.SaveStory</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SaveStory</servlet-name>
+		<url-pattern>/share</url-pattern>
+	</servlet-mapping> 
+	
+
+  
+</web-app>
